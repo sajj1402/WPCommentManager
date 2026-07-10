@@ -1,0 +1,25 @@
+[app]
+title = WP Comment Manager
+package.name = wpcommentmanager
+package.domain = org.wpcm
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas,txt,json
+version = 1.0.0
+requirements = python3,kivy,requests,urllib3,chardet,certifi,idna
+orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 2.2.0
+presplash.filename = assets/splash.png
+icon.filename = assets/icon.png
+android.wakelock = True
+android.api = 31
+android.minapi = 21
+android.sdk = 31
+android.ndk = 25b
+android.gradle_dependencies = 'com.google.android.material:material:1.6.1'
+android.permissions = INTERNET, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE
+android.add_src =
+android.arch = arm64-v8a
+android.offline_build = False
+android.allow_download_preferred_archs = True
+android.enable_androidx = True
